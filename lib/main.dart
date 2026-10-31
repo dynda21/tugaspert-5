@@ -50,20 +50,20 @@ class ProfilePage extends StatelessWidget {
               children: [
                 Column(
                   children: [
-                    Text('10', style: TextStyle(fontSize: 20)),
-                    Text('Proyek'),
+                    Text('3', style: TextStyle(fontSize: 20)),
+                    Text('Hobi'),
                   ],
                 ),
                 Column(
                   children: [
                     Text('5', style: TextStyle(fontSize: 20)),
-                    Text('Sertifikat'),
+                    Text('Pengalaman di Sekolah'),
                   ],
                 ),
                 Column(
                   children: [
-                    Text('3', style: TextStyle(fontSize: 20)),
-                    Text('Pengalaman'),
+                    Text('2', style: TextStyle(fontSize: 20)),
+                    Text('Musik Favorit'),
                   ],
                 ),
               ],

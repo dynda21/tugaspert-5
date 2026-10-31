@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -44,6 +43,31 @@ class ProfilePage extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text('Mahasiswa'),
+
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Column(
+                  children: [
+                    Text('10', style: TextStyle(fontSize: 20)),
+                    Text('Proyek'),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('5', style: TextStyle(fontSize: 20)),
+                    Text('Sertifikat'),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('3', style: TextStyle(fontSize: 20)),
+                    Text('Pengalaman'),
+                  ],
+                ),
+              ],
+            ),
           ],
         ),
       ),
